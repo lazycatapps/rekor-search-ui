@@ -4,7 +4,10 @@ class AppDocument extends Document {
 	render() {
 		return (
 			<Html lang="en">
-				<Head></Head>
+				<Head>
+					{/* eslint-disable-next-line @next/next/no-sync-scripts */}
+					<script src="/config.js"></script>
+				</Head>
 				<body>
 					<Main />
 					<NextScript />

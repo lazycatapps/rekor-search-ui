@@ -28,3 +28,7 @@ yarn-error.log*
 **/.vscode/
 
 **/.DS_Store
+
+out/
+dist/
+*.lpk
